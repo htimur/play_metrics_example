@@ -12,8 +12,9 @@ libraryDependencies ++= Seq(
   jdbc,
   cache,
   ws,
-  "de.khamrakulov.metrics-reporter-play" %% "reporter-core" % "1.0.0",
-  "de.khamrakulov" %% "metrics-annotation-play" % "1.0.2",
+  "io.dropwizard.metrics" % "metrics-core" % "3.1.2",
+  "de.khamrakulov.metrics-reporter-play" %% "reporter-core" % "1.0.4",
+  "de.khamrakulov" %% "metrics-annotation-play" % "1.0.4",
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
 )
 
